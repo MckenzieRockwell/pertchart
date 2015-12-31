@@ -1,17 +1,18 @@
-<div class='navbar navbar-default navbar-static-top' id='navbarnav'>
-        <ul class='nav nav-tabs' id='navlist'>
-    		<li><a href="/">Home</a></li>
-
-
-    		<li><a href="/about">About me</a></li>
-
-
-    		<li>><a href="/services">Services</a></li>
-
-
-    		<li <% if (locals.page === 'projects') { %>class='active'<% } %>><a href="/projects">Projects</a></li>
-
-
-    		<li <% if (locals.page === 'contact') { %>class='active'<% } %>><a href="/contact">Contacts me</a></li>
-        </ul>
-</div>
+<nav class='navbar navbar-default navbar-static-top">
+    <div class='container-fluid'>
+        <div class='navbar-header'>
+            <div class='navbar-header'>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    collapse
+                </button>        
+            </div>
+            <div class='collapse navbar-collapse' id='collapseArea-1'>
+                <ul>
+                    <li><p>three</p></li>
+                    <li><p>two</p></li>
+                    <li><p>one</p></li>
+                </ul>
+            </div>
+        </div>  
+    </div>  
+</nav>
